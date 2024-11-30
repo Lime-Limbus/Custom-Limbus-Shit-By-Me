@@ -1,0 +1,23 @@
+{
+  "list": [
+    {
+      "personalityID": 10932,
+      "battlePassiveList": [
+        {
+          "level": 2,
+          "passiveIDList": [
+            1090201
+          ]
+        }
+      ],
+      "supporterPassiveList": [
+        {
+          "level": 3,
+          "passiveIDList": [
+            1090221
+          ]
+        }
+      ]
+    }
+  ]
+}

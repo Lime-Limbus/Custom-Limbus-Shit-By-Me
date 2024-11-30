@@ -1,0 +1,102 @@
+{
+  "list": [
+    {
+      "id": 10932,
+      "appearance": "10902_Rodion_BlackCloudAppearance",
+      "unitKeywordList": ["CLAN","SMALL"],
+      "associationList": ["BLACK_CLOUD"],
+      "characterId": 9,
+      "panicType": 9999,
+      "season": 0,
+      "defenseSkillIDList": [
+        10902055
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 3,
+      "hp": {
+        "defaultStat": 300,
+        "incrementByLevel": 10
+      },
+      "defCorrection": 2,
+      "minSpeedList": [
+        2,
+        2,
+        3,
+        3
+      ],
+      "maxSpeedList": [
+        4,
+        6,
+        6,
+        6
+      ],
+      "uniqueAttribute": "AZURE",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          30
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 0.1
+          },
+          {
+            "type": "PENETRATE",
+            "value": 0.1
+          },
+          {
+            "type": "HIT",
+            "value": 0.1
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 10902011,
+          "number": 3
+        },
+        {
+          "skillId": 10902022,
+          "number": 2
+        },
+        {
+          "skillId": 10902033,
+          "number": 1
+        }
+      ]
+    }
+  ]
+}
